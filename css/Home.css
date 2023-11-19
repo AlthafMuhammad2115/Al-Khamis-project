@@ -1,0 +1,672 @@
+
+*{
+    margin: 0px;
+    cursor: context-menu;
+    font-family: 'Raleway', sans-serif;
+}
+.main{
+    overflow-x: hidden;
+}
+.main a{
+    text-decoration: none;
+}
+span:hover{
+    cursor: pointer;
+}
+.list li {
+    list-style: none;
+    padding:0px 20px;
+    
+
+}
+.nav_bar.row{
+    margin: 0px 0px;
+}
+.list ul{
+    margin-top: 20px
+}
+.list button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.logo{
+    flex-direction: column;
+    align-items: center;
+}
+.logo h1{
+    font-family: 'Qwigley', cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.logo p{
+    margin-top: -18px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+
+}
+.night button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.nav_bar{
+    position: fixed;
+    z-index: 1000;
+    background-color: transparent;
+    height: 90px;
+}
+.img img{
+    width: 100%;
+    height: 651px;
+
+}
+.img{
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+}
+.over{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 500px;
+    height: 400px;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.over .hero  h3{
+    color: #fff;
+    background: transparent;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+
+}
+
+.hero_con{
+    line-height:100%;
+    color: #fff;
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.over .readmore span{
+    color:  #ff5e14;
+    background-color:#FFFFFF ;
+    font-size: 36px;
+    line-height: 60px;
+   justify-content: center;
+   display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   
+}
+.over .readmore{
+    display: flex;
+    justify-content: flex-start;
+    width: 54%;
+}
+.over .readmore .cons{
+    color: #FFFFFF;
+    background-color: transparent;
+    line-height: 1px;
+    padding-top: 1px;
+}
+.about .ab-name h2{
+    transform: rotate(-90deg);
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+
+
+}
+
+.about .ab-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.com-img {
+    position: relative;
+    overflow: hidden;
+}
+.zoom-img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.com-img:hover .zoom-img{
+    transform: scale(1.1);
+}
+.about-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.com-con .infra{
+   padding-left: 20px;
+}
+.com-ab p{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.com-ab h3{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.ab-con {
+   letter-spacing: 1px;
+}
+.ab-con h6{
+    line-height: 25px;
+}
+.company-main{
+    background-image: url(../assets/CompanyAsset.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.company-main .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+.workforce-main{
+    z-index: 200;
+    color: #FFFFFF;
+}
+.company-name h3{
+    font-family: 'Qwigley', cursive;
+    font-size: 80px;
+    font-weight: 500;
+    margin: 0px ;
+
+}
+.company-name h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+
+    
+}
+.cmp-est{
+    position: absolute; 
+    top: 40%;
+    left: 80%;
+}
+.cmp-est h3{
+    font-family: 'Qwigley', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.cmp-est h2{
+    font-family: 'Qwigley', cursive;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: -45px;
+}
+.curve{
+    width: 100px; 
+    height: 40px;  
+    border: solid 1px #000;
+    border-color: #FFFFFF transparent transparent transparent;
+    border-radius: 50%/20px 10px 0 0;
+    margin-top: -10px;
+}
+.about-cmpny h3{
+    
+    font-family: 'Source Code Pro', monospace;
+}
+.workforce p{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.projects h1{
+    font-size: 70px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.projects h5{
+    font-weight: 200;
+    font-size: 25px;
+}
+.projects span{
+    font-size: 40px;
+
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* service */
+.service-main{
+    background-image: url(../assets/service-bgimg.jpg);
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+.overlay-s1{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background-color: rgb(225, 225, 225,0.8);
+    z-index: 100;
+}
+
+.service-content p{
+    padding: 0px auto;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.service-content h4{
+    text-transform: capitalize;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+.company-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FFA500;
+}
+.line{
+    width: 1px;
+    height: 70px;
+    background-color: #FFA500;
+}
+.dotted-circle{
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px #FFA500 dashed;
+}
+.in-circle{
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #FFA500;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-circle span{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+.d4{
+    background-color: #D84B5E ;
+}
+.d4b{
+    border: #D84B5E  1px dashed;
+}
+.d3{
+    background-color: #808080 ;
+}
+.d3b{
+    border: #808080  1px dashed;
+}
+.d2{
+    background-color: #A597CC ;
+}
+.d2b{
+    border: #A597CC  1px dashed;
+}
+
+/* testimoanials */
+.testimonial_total_wrapper{
+    position: relative;
+}
+.cleint{
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    flex: 0 0 auto;
+    width: 100%;
+}
+.cleint.row{
+    margin: 0px 0px;
+}
+.client_box{
+    
+    background-color: #000;
+    height: 400px;
+    position: relative;
+}
+.client_img{
+    position: absolute;
+    top: 25%;
+    left: -50%;
+}
+.client_img img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 5px solid black;
+    object-fit: cover;
+}
+.review_title i{
+    font-size: 50px;
+}
+.clientreview{
+    height: 100%;
+}
+.client_name h5{
+    font-weight: 600;
+}
+.client_review_detials p{
+    letter-spacing: 1px;
+}
+.testimonial_total_wrapper button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 200;
+    top: 40%;
+}
+.testimonial_total_wrapper button:nth-child(1){
+    left: 0;
+}
+.testimonial_total_wrapper button:nth-child(3){
+    right: 0;
+}
+
+.main_wrapper{
+    position: relative;
+    overflow-x: hidden;
+}
+.wrapper{
+    display: flex;
+}
+
+
+
+
+/* footer */
+
+.social span ,.contact span{
+    display: flex;
+}
+.social p,.contact p{
+    padding-left: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.social i,.contact i{
+    color: rgba(0, 0, 0, 0.8);
+}
+.social h2,.contact h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    color: rgba(0, 0, 0, 0.8);
+}
+.contact-us button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.contact-us button:hover{
+    border: 1px solid black;
+}
+.foot-name h1{
+    color: #000;
+}
+.foot-name p{
+    color:#000;
+    font-weight: bolder;
+}
+.media span:hover{
+    color: #000;
+    font-weight: 600;
+}
+.line-footer{
+    height: 1px;
+    width: 60%;
+    background-color:rgba(0, 0, 0, 0.5);
+
+}
+.media button{
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+span:hover{
+    cursor: context-menu;
+}
+.our_client_logos img{
+    width: 200px;
+    height: 200px;
+}
+.logo-img{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.our_client_logos.row>*{
+    padding: 0px;
+}
+.address span{
+    font-size: 25px;
+}
+.address h6{
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.address p{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+.map{
+    display: none;
+
+}
+.mapshow{
+    display: block;
+    position: absolute;
+    
+}
+.contact-via button{
+    background-color: transparent;
+    border: none;
+}
+.contact-via i,.contact-via button:hover{
+    cursor: pointer;
+}
+.line-con{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.our_client_head h1,.contact-head h1,.title h1,.service-head h1{
+    font-weight: 700;
+}
+.service-title p,.contact-head h5{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+    .cleint{
+        display: flex;
+        flex-direction: column;
+    }
+    .sm_client_img img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid black;
+        object-fit: cover;
+    }
+    .service-main{
+        height: 1000px;
+    }
+    .company-main{
+        height: 800px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    
+    .our_client_logos img{
+        width: 150px;
+        height: 150px;
+    }
+    .contact-us button{
+        background-color: transparent;
+        border: 1px solid black;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .sm_toggle{
+        background-color:rgba(255, 255, 255, 1);
+        position: fixed;
+        z-index: 200;
+        width: 70%;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        z-index: 200000;
+        transition: all 0.2s ease-in-out;
+    }
+    .sm-list{
+        background-color:rgba(255, 255, 255,1);
+        position: fixed;
+        z-index: 200;
+        width: 70%;
+        height: 100vh;
+        top: 0px;
+        left: -2000px;
+        z-index: 20000;
+        transition: all 0.2s ease-in-out;
+        
+    }
+    .sm-list li,.sm_toggle li{
+        list-style: none;
+
+    }
+    .sm-list button,.sm_toggle button{
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        padding: 15px 50px;
+    }
+
+    .sm-logo{
+        flex-direction: column;
+    }
+    .sm-logo h1{
+        font-family: 'Qwigley', cursive;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: transparent;
+        margin-bottom: 0px;
+    }
+    .sm-logo a{
+        text-decoration: none;
+        color: #000;
+    }
+    .sm-logo p{
+        margin-top: -18px;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .company-main{
+        height: 1200px;
+    }
+    .cmp-est{
+        position: static;
+    }
+    .service-main{
+        height: 1300px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .test-btn button{
+        font-size: 40px;
+    }
+    .left{
+        left: -500px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .ab-name h2{
+        transform: rotate(0deg);
+    }
+    .readmore i{
+        font-size: 35px;
+       width: 50px;
+       height: 50px;
+       text-align: center;
+    }
+    .readmore{
+        width: 100%;
+    }
+    .night button:nth-child(2){
+        border: none;
+        color: #fff;
+        background: transparent;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 28px;
+        text-transform: capitalize;
+        padding: 0px 10px;
+    }
+    
+}
