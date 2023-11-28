@@ -153,6 +153,7 @@ span:hover{
 .com-img {
     position: relative;
     overflow: hidden;
+    
 }
 .zoom-img{
     width: 100%;
@@ -170,10 +171,11 @@ span:hover{
    padding-left: 20px;
 }
 .com-ab p{
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-weight: 500;
+    line-height: 30px;
 }
-.com-ab h3{
+.com-ab h2{
     letter-spacing: 2px;
     text-transform: capitalize;
 }
@@ -184,7 +186,7 @@ span:hover{
     line-height: 25px;
 }
 .company-main{
-    background-image: url(../assets/CompanyAsset.jpg);
+    background-image: url(./assets/CompanyAsset.jpg);
     width: 100%;
     height: 700px;
     background-size: cover;
@@ -273,7 +275,7 @@ span:hover{
 
 /* service */
 .service-main{
-    background-image: url(../assets/service-bgimg.jpg);
+    background-image: url(./assets/service-bgimg.jpg);
     background-size: cover;
     position: relative;
     height: 700px;
@@ -558,6 +560,14 @@ span:hover{
 
 }
 @media screen and (max-width: 767px) {
+    
+    .com-img{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .com-con .infra{
+        padding: 0px;
+    }
     
     .our_client_logos img{
         width: 150px;
